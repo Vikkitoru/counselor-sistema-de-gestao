@@ -1,15 +1,16 @@
 {
-  "homepage": "https://carlosederfmm.github.io/fmm-counseling",
+  "homepage": "https://carlosederfmm.github.io/Teste2026",
   "name": "counseling-data",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
